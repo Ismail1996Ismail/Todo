@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: rgba(100, 196, 237, 1);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 50px 0;
+  width: 390px;
+  margin: auto;
+}
+main {
+  font-family: 'Lato', sans-serif;
+  width: 420px;
+  margin: auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+}
+.todo-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.complete {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(61, 230, 61);
+}
+.todo-remove {
+  width: 21px;
+  height: 21px;
+  background-color: red;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.todoForm {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.todoForm input {
+  width: 390px;
+  border: none;
+}
+.todoForm button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+} 
